@@ -35,6 +35,7 @@
             label3 = new Label();
             textBoxEmail = new TextBox();
             buttonShow = new Button();
+            labelAddedInformation = new Label();
             SuspendLayout();
             // 
             // label1
@@ -97,12 +98,22 @@
             buttonShow.UseVisualStyleBackColor = true;
             buttonShow.Click += buttonShow_Click;
             // 
+            // labelAddedInformation
+            // 
+            labelAddedInformation.AutoSize = true;
+            labelAddedInformation.Location = new Point(312, 245);
+            labelAddedInformation.Name = "labelAddedInformation";
+            labelAddedInformation.Size = new Size(108, 15);
+            labelAddedInformation.TabIndex = 7;
+            labelAddedInformation.Text = "Added Information";
+            // 
             // Form1
             // 
             AcceptButton = buttonShow;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(labelAddedInformation);
             Controls.Add(buttonShow);
             Controls.Add(textBoxEmail);
             Controls.Add(label3);
@@ -126,5 +137,6 @@
         private Label label3;
         private TextBox textBoxEmail;
         private Button buttonShow;
+        private Label labelAddedInformation;
     }
 }

@@ -21,7 +21,7 @@ namespace SMS.App
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            buttonShow_Click(sender, e);
+            //buttonShow_Click(sender, e);
             //createStudent(1, "Shakira", "sha@kira.com");
         }
         
@@ -38,11 +38,16 @@ namespace SMS.App
             {
                 StudentId = id,
                 StudentName = name,
-                Email = email
+                Email = email,
+                DateAdded = DateTime.Now,
+                AddedBy = "Admin"
             };
             textBoxEmail.Text = student.Email;
             textBoxID.Text = student.StudentId.ToString();
             textBoxName.Text = student.StudentName;
+
+            //labelAddedInformation.Text = "Added By: " + student.AddedBy + " " + student.DateAdded; : less formal concatenation
+            labelAddedInformation.Text = $"Added By: {student.AddedBy} {student.DateAdded}";
         }
     }
 }
