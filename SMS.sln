@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.App", "SMS.App\SMS.App.csproj", "{B5BD3282-DC2E-41F8-973E-A62E6E9E7715}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Domain", "SMS.Domain\SMS.Domain.csproj", "{679098E7-6DC7-4846-A3FB-E6AB95AD1C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Infastructure", "SMS.Infastructure\SMS.Infastructure.csproj", "{928EA5CB-B678-4767-AC41-6AB9D8214260}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{679098E7-6DC7-4846-A3FB-E6AB95AD1C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{679098E7-6DC7-4846-A3FB-E6AB95AD1C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{679098E7-6DC7-4846-A3FB-E6AB95AD1C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928EA5CB-B678-4767-AC41-6AB9D8214260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928EA5CB-B678-4767-AC41-6AB9D8214260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928EA5CB-B678-4767-AC41-6AB9D8214260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928EA5CB-B678-4767-AC41-6AB9D8214260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
